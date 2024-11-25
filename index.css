@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(22, 22, 22);
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+ul {
+  color: white;
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+li {
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+li::marker {
+  color: #61dafb;
+  font-size: 1.5rem;
+}
+
+.custom-img {
+  width: 60px;
+  height: auto;
+}
+
+header {
+  height: 90px;
+  background-color: #21222a;
+  padding: 30px 25px;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  color: #61dafb;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
